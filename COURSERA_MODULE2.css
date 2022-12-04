@@ -1,0 +1,127 @@
+body{
+    background-color:#F3A7F3;
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: calc(32);
+    margin-bottom: 30px;
+}
+
+#box1{
+    background-color: aquamarine;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 20px;
+    box-sizing: border-box;
+    
+   
+
+}
+
+#box2{
+    background-color: beige;
+    padding: 10px;
+    border: 3px solid black;
+    margin:20px;
+    
+
+}
+#box3{
+    background-color: aquamarine;
+    padding: 10px;
+    border: 3px solid black;
+    margin:20px;
+    box-sizing: border-box;
+}
+#inhead1{
+    font-style: italic;
+    font-variant:large;
+    background-color:rgb(245, 126, 108);
+    border: 2px solid black;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom:30px;
+    left:90.85%;
+    width: fit-content;
+    text-align: right;
+
+}
+#inhead2{
+    font-style: italic;
+    font-variant:large;
+    background-color:rgb(245, 126, 108);
+    border: 2px solid black;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom:30px;
+    left:86.25%;
+    width: fit-content;
+    text-align: right;
+
+}
+#inhead3{
+    font-style: italic;
+    font-variant:large;
+    background-color:rgb(245, 126, 108);
+    border: 2px solid black;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom:30px;
+    left:95.25%;
+    width: fit-content;
+    text-align: right;
+
+}
+.row{
+    width:100%;
+}
+/**for large devices**/
+@media (min-width:992px){
+    .col-lg-1,   .col-lg-2,.col-lg-3,
+    
+}
+.col-lg-1{
+    width:33.33%;
+}
+.col-lg-1{
+    width:33.33%;
+}
+.col-lg-1{
+    width:33.33%;
+}
+/**for medium devices**/
+@media (min-width:768px) and (max-width:991px){
+    .col-md-1,.col-md-2,.col-md-3,
+    
+.col-md-1{
+    width:33.33%;
+}
+.col-md-2{
+    width:33.33%;
+}
+.col-md-3{
+    width:33.33%;
+}
+/**for medium devices**/
+@media (max-width:767px){
+    .col-md-1,.col-md-2,.col-md-3,
+    
+.col-md-1{
+    width:33.33%;
+}
+.col-md-2{
+    width:33.33%;
+}
+.col-md-3{
+    width:33.33%;
+}
